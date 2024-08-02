@@ -5,20 +5,22 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> A mobile app for ordering home-made daily plates, making it easier for cooks to reach customers and be reached by them.
+> A mobile app for ordering home-made daily plates, giving cooks the previlige to showcase their culinary skills to customers.
 >
-> Mama's Kitchen presents to customers a comfortable ordering process by providing a user-friendly platform to place orders and pick specific ingredients in dishes. We believe in enhancing the business of cooks by saving time and decreasing complexity of orders.
+> Mama's Kitchen presents to customers a comfortable ordering process by providing a user-friendly platform to place orders, customize dishes, and enjoy personalized recommendations through AI technology. We believe in enhancing the business of cooks by managing their time and decreasing complexity of ordering food.
 
 ### User Stories
-#### Cooks
-- As a cook, I want to present my plates, so I can find the right customers.
-- As a cook, I want to reach customers, so I don't have to open a public restaurant.
-- As a cook, I want to reach a big audience, so I can grow my kitchen.
+#### Cook
+- As a cook, I want to receive AI-driven suggestions on how to improve my dishes based on customer feedback and trends so that I can enhance my offerings and satisfy my customers better.
+
+- As a cook, I want the platform to assist me with content creation for marketing on social media so that I can focus on cooking while still building my online presence.
+
+- As a cook, I want to manage incoming orders efficiently so that I can ensure timely preparation and delivery without compromising the quality of the food.
 
 #### Customer
-- As a customer, I want to customize my plate, so I can express my preferred choice of ingredients.
-- As a customer, I want to reach cooks easily, so I don't have to go to the restaurant.
-- As a customer, I want to order home-made food, so I can enjoy my favorite flavors.
+- As a customer, I want to customize the ingredients in my food order so that I can tailor meals according to my dietary preferences and allergies.
+- As a customer, I want to easily order homemade food so that I can enjoy prepared meals without the hassle of cooking.
+- As a customer, I want the app to recommend dishes based on my previous orders and preferences so that I can discover new favorites and reorder beloved dishes easily.
 
 <br><br>
 <!-- Tech stack -->
