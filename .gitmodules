@@ -1,0 +1,9 @@
+[submodule "Mama-s-kitchen-back"]
+	path = Mama-s-kitchen-back
+	url = https://github.com/fatimashahroor/Mama-s-kitchen-back.git
+[submodule "Mama-s-kitchen-front"]
+	path = Mama-s-kitchen-front
+	url = https://github.com/fatimashahroor/Mama-s-kitchen-front.git
+[submodule "Mama-s-kitchen-ml"]
+	path = Mama-s-kitchen-ml
+	url = https://github.com/fatimashahroor/Mama-s-kitchen-ml.git
