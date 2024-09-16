@@ -7,6 +7,3 @@
 [submodule "Mama-s-kitchen-ml"]
 	path = Mama-s-kitchen-ml
 	url = https://github.com/fatimashahroor/Mama-s-kitchen-ml.git
-[submodule "Mama-s-kitchen-admin-panel"]
-	path = Mama-s-kitchen-admin-panel
-	url = https://github.com/fatimashahroor/Mama-s-kitchen-admin-panel.git
