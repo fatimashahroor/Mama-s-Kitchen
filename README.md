@@ -7,57 +7,60 @@
 
 > A mobile app for ordering home-made daily plates, giving cooks the previlige to showcase their culinary skills to customers.
 >
-> Mama's Kitchen presents to customers a comfortable ordering process by providing a user-friendly platform to place orders, customize dishes, and enjoy personalized recommendations through AI technology. We believe in enhancing the business of cooks by managing their time and decreasing complexity of ordering food.
+> Mama's Kitchen presents to customers a comfortable ordering process by providing a user-friendly platform to place orders, and customize dishes. We believe in enhancing the business of cooks by managing their time and decreasing complexity of ordering food.
 
 ### User Stories
 #### Cook
 - As a cook, I want to receive AI-driven suggestions on how to improve my dishes based on customer feedback and trends so that I can enhance my offerings and satisfy my customers better.
 
-- As a cook, I want the platform to assist me with content creation for marketing on social media so that I can focus on cooking while still building my online presence.
+- As a cook, I want the platform to to aid in my business growth by providing tools to share my cooking techniques and dishes, so that I can gain recognition and reach customers directly from home.
 
 - As a cook, I want to manage incoming orders efficiently so that I can ensure timely preparation and delivery without compromising the quality of the food.
 
 #### Customer
 - As a customer, I want to customize the ingredients in my food order so that I can tailor meals according to my dietary preferences and allergies.
 - As a customer, I want to easily order homemade food so that I can enjoy prepared meals without the hassle of cooking.
-- As a customer, I want the app to recommend dishes based on my previous orders and preferences so that I can discover new favorites and reorder beloved dishes easily.
+- As a customer, I want to be able to express my feedback about ordered dishes so that cooks can enhance their recipes to meet food preferences.
+
+#### Admin
+- As an admin, I want to have access of all registered users on the mobile app.
+- As an admin, I want to control cooks registration and subscription to the app.
+- As an admin, I want to assign roles and permissions to users.
 
 <br><br>
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+###  Mama's Kitchen is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- This project uses the [React-native app development framework](https://reactnative.dev/). React Native is an open-source mobile application framework that allows developers to build natively rendering mobile apps for iOS and Android using JavaScript and React. 
+- This project uses also [Laravel php framework](https://laravel.com/). Laravel is is one of the most popular PHP frameworks due to its elegant syntax and robust features. It is intended for the development of web and mobile applications following the model–view–controller (MVC) architectural pattern. 
+- The project's database is [MySQL database](https://www.mysql.com/). It is used for small-scale and large-scale applications and is known for its reliability, robustness, and ease of use.
+- Plus, the project uses [React Javascript library](https://react.dev/). React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It is used here for the admin panel.
 
 <br><br>
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+> We designed Mama's Kitchen using wireframes and mockups, switching designs until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma](https://www.figma.com/design/m9J4xemV4ZGRN1sSLjAc5L/Final-Project?node-id=0-1&node-type=canvas&t=M5OrSlEXo0UKlDuC-0)
 
 
 ### Mockups
-| Home screen  | Menu Screen | Order Screen |
+| Login screen  | Home Screen | Order Screen |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Login](./readme/demo/login.png) | ![Menu](./readme/demo/landing.png) | ![order](./readme/demo/orders.png) |
 
 <br><br>
 
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
-###  Architecting Data Excellence: Innovative Database Design Strategies:
+###  Architecting Data Excellence: Innovative Database Design Strategies: Using RBAC Security System
 
-- Insert ER Diagram here
-
+![database](./readme/demo/image.png)
 
 <br><br>
 
@@ -67,18 +70,16 @@
 
 
 ### User Screens (Mobile)
-| Login screen  | Register screen | Landing screen | Loading screen |
+| Login screen  | Register screen | on Boarding screen | Home screen |
 | ---| ---| ---| ---|
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+| ![Landing](./readme/demo/login.png) | ![fsdaf](./readme/demo/signup.png) | ![fsdaf](./readme/demo/onBoarding.png) | ![fsdaf](./readme/demo/landing.png) |
+| Dish screen  | Order Screen | Chefs Screen | Checkout Screen |
+| ![Landing](./readme/demo/dish.png) | ![fsdaf](./readme/demo/orders.png) | ![fsdaf](./readme/demo/chefs.png) | ![fsdaf](./readme/demo/cart.png) |
 
 ### Admin Screens (Web)
-| Login screen  | Register screen |  Landing screen |
+| Login screen  | Users screen |  Roles screen |
 | ---| ---| ---|
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| ![Landing](./readme/demo/loginA.png) | ![fsdaf](./readme/demo/users.png) | ![fsdaf](./readme/demo/roles.png) |
 
 <br><br>
 
@@ -88,16 +89,7 @@
 
 ###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
-
-<br><br>
-
-<!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
-
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+- This project uses openAI model to optimize the connection between cook's dishes and customers's feedback. By crafting detailed prompts, the AI accurately interprets customer reviews—classifying and detecting emotions, to dynamically suggest potential enhancemnet of the dish recipe primarily based on negative feedback.
 
 <br><br>
 
@@ -106,38 +98,46 @@
 
 ###  Precision in Development: Harnessing the Power of Unit Testing:
 
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+- This project employs robust unit testing methodologies to ensure the reliability and accuracy of code components and results. By evaluating individual units of the software, we guarantee efficient outcomes, identifying and addressing potential issues early in the development process.
 
+![Postman](./readme/demo/unitTesting.png)
 <br><br>
 
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up Mama's Kitchen locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. First Clone the repository: 
+```sh
+https://github.com/fatimashahroor/Mama-s-Kitchen.git
+```
+2. Initiate and update the submodules:
+```sh
+git submodule init
+git submodule update
+```
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Navigate to the project directory frontend to install NPM packages: 
+* navigation
+```sh
+cd Mama-s-kitchen-front
+```
+* set-up
+```sh
+npm install npm@latest -g
+composer install
+```
+2. Run the app frontend by:
+```sh
+npm install -g expo-cli
+npx expo start
+```
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-Now, you should be able to run Coffee Express locally and explore its features.
+Now, you should be able to run Mama's Kitchen locally and explore its features.
